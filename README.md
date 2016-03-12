@@ -19,7 +19,7 @@ All other used APIs don't need a key for the used scopes.
 ### Building the Docker Container
 Make sure you have docker installed.
 
-Run `docker build -t mozillach/mozilla.ch` to build the docker container.
+Run `docker build -t mozillach/mozilla.ch .` to build the docker container.
 
 ### Releasing a New Docker Container
 [![Travis CI Builds](https://travis-ci.org/mozillach/mozilla.ch.svg?branch=release)](https://travis-ci.org/mozillach/mozilla.ch)
